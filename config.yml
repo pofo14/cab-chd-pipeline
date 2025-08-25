@@ -1,0 +1,23 @@
+raw_root: "D:/ROMs_RAW"
+chd_root: "D:/ROMs_CHD"
+launchbox_root: "D:/LaunchBox"
+cab_games_root: "C:/LaunchBox/Games"
+cab_media_root: "C:/LaunchBox/Images"
+chdman_path: "C:/Tools/MAME/chdman.exe"
+systems:
+  "Sony PlayStation":
+    raw_subdir: "Sony PlayStation (Redump)"
+    chd_subdir: "Sony PlayStation"
+    input_type: "cd"
+  "Sony PlayStation 2":
+    raw_subdir: "Sony PlayStation 2 (Redump)"
+    chd_subdir: "Sony PlayStation 2"
+    input_type: "dvd"
+playlists:
+  - "Top 100 Arcade"
+  - "All Killer No Filler"
+  - "Favorites"
+parallel_jobs: 4
+skip_if_source_unchanged: true
+verify_after_build: true
+dry_run: false
